@@ -1,21 +1,27 @@
 table {
-    
     border-collapse:collapse;
-    width:90%;
-    
-    }
-   th, td {
-    border:1px solid black;
-    width:20%;
-    background-color:white;
-    padding: 10px;
-    color: rgb(139, 77, 77);
-    }
-   td {
+    width:80%;
+    height: auto;
+    margin: 10%;
+ }
+th, td {
+    border:2px solid black;
+    width:20px;
+    height: 30px;
+    font-size: large;
+}
+td {
     text-align:center;
-    }
-   caption {
+ }
+caption {
     font-weight:bold;
-    padding-bottom: 10px;
-    
-    }
+    padding-bottom: 10px; 
+    text-decoration: underline;  
+}
+th{
+    background-color: darkgreen;
+}
+tr :nth-child(1){
+    background-color: darkgreen;
+    font-weight: bold;
+}
